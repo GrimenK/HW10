@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration name="ConfigTask">
+    <Appenders>
+        <Console name="ConsoleAppender">
+            <PatternLayout pattern="{%-5level} %m %n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="ConsoleAppender" level="all"/>
+        </Root>
+    </Loggers>
+
+</Configuration>
+
